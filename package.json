@@ -1,0 +1,29 @@
+{
+  "name": "salatower",
+  "version": "0.0.1",
+  "description": "A vertical salad tower.",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "chokidar \"**/*.jscad\" --verbose -i node_modules -c \"openjscad {path} -of stla\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyzen/jscad-starter.git"
+  },
+  "keywords": [
+    "jscad",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennyzen/jscad-starter/issues"
+  },
+  "homepage": "https://github.com/bennyzen/jscad-starter#readme",
+  "dependencies": {
+    "@jscad/csg": "^0.7.0",
+    "@jscad/openjscad": "^1.6.1",
+    "chokidar-cli": "^1.2.2"
+  }
+}
