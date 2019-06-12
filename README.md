@@ -27,7 +27,8 @@ build instructions provided below to the point.
 
 
 How to build:
-- print the bottom first, as it's the hardest piece.
+- print the bottom first, as it's the hardest piece. print everything from the
+  bottom upwards. 
 - now print one middle segment first and make sure that it fits into the
   endpiece. if it does not fit, edit the `config.js` file and play with the
   value `RING_INSET` value until you get a snug fit.
