@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/bennyzen/jscad-starter#readme",
   "dependencies": {
-    "@jscad/csg": "^0.7.0",
     "@jscad/openjscad": "^1.6.1",
-    "chokidar-cli": "^1.2.2"
+    "@jscad/scad-api": "^0.5.1",
+    "chokidar-cli": "^1.2.2",
+    "nodemon": "^1.19.1"
   }
 }
