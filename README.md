@@ -50,3 +50,9 @@ build instructions provided below to the point.
 - get your extrusion right. use things like [Fast edge over/under extrusion test](https://www.thingiverse.com/thing:1622868)
   on Thingiverse to adjust your extrusion and keep it consistent across all
   your prints.
+
+## Possible Features
+- Using pH and EC circuits from (Atlas Scientific)[https://www.atlas-scientific.com/product_pages/circuits/ezo_ph.html] 
+  a constant measurement could occur
+- using (M5Stack)[https://m5stack.com/] the pot could show pH and EC, be reachable through a webinterface 
+  and report its values to the cloud
