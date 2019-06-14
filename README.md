@@ -56,3 +56,6 @@ build instructions provided below to the point.
   a constant measurement could occur
 - using (M5Stack)[https://m5stack.com/] the pot could show pH and EC, be reachable through a webinterface 
   and report its values to the cloud
+
+## How to operate
+Once all parts are printed and fit into each other, you're ready to test your system. First of all you need to be sure there are no leaks. Even a small leak can result in a complete outage, when run for a couple of hours.
