@@ -5,7 +5,7 @@ into each other. Values set herein are global and affect all parts of the
 system. Tweak them carefully and one by one.
 
 After every change to this config file, you need to re-render your STL files.
-You can do this with eg `nodemon bottom/bottom-v3.js`. 
+You can do this with eg `nodemon bottom/bottom-v3.js`.
 */
 const config = {
   WALL_THICKNESS: 2,
@@ -20,5 +20,7 @@ const config = {
   FLOW_DIAMETER: 12,
   FLOW_HEIGHT: 10,
   ROPE_DIAMETER: 8,
+  BASE_SIDE: 200, // 200x200x200 gives 4L of nutrient
+  BASE_HEIGHT: 100
 }
 module.exports = config
