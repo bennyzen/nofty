@@ -8,6 +8,7 @@ After every change to this config file, you need to re-render your STL files.
 You can do this with eg `nodemon bottom/bottom-v3.js`.
 */
 const config = {
+  // tower
   WALL_THICKNESS: 2,
   SEGMENT_OUTER_DIAMETER: 80,
   SEGMENT_HEIGHT: 50 + 12,
@@ -20,7 +21,17 @@ const config = {
   FLOW_DIAMETER: 12,
   FLOW_HEIGHT: 10,
   ROPE_DIAMETER: 8,
-  BASE_SIDE: 200, // 200x200x200 gives 4L of nutrient
-  BASE_HEIGHT: 100
+  // base
+  BASE_SIDE: 200,
+  BASE_HEIGHT: 100,
+  // hooks
+  HOOK_THICKNESS: 3,
+  HOOK_HEIGHT: 6,
+  HOOK_MIDDLE: 82,
+  // nft tissue pad
+  NOZZLE_WIDTH: 1.01,
+  LAYER_HEIGHT: 0.9,
+  PAD_SIDE: 100, 
+  PAD_DENSITY: 6
 }
 module.exports = config
