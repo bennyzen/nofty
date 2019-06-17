@@ -24,6 +24,10 @@ const config = {
   // base
   BASE_SIDE: 200,
   BASE_HEIGHT: 100,
+  // base cover
+  BASE_COVER_WIDTH: 200,
+  BASE_COVER_LENGTH: 170,
+  BASE_COVER_HEIGHT: 20,
   // nft hooks
   HOOK_THICKNESS: 3,
   HOOK_HEIGHT: 6,
