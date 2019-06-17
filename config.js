@@ -24,14 +24,17 @@ const config = {
   // base
   BASE_SIDE: 200,
   BASE_HEIGHT: 100,
-  // hooks
+  // nft hooks
   HOOK_THICKNESS: 3,
   HOOK_HEIGHT: 6,
   HOOK_MIDDLE: 82,
   // nft tissue pad
   NOZZLE_WIDTH: 1.01,
   LAYER_HEIGHT: 0.9,
-  PAD_SIDE: 100, 
-  PAD_DENSITY: 6
+  PAD_SIDE: 100,
+  PAD_DENSITY: 6,
+  // nft cover clips
+  NFT_COVER_HEIGHT: 3.0,
+  NFT_STICK_DIAMETER: 5.7,
 }
 module.exports = config

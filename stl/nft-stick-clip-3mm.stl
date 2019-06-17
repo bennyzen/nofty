@@ -1,0 +1,338 @@
+solid csg.js
+facet normal -1 0 0
+outer loop
+vertex -4.5 1.5 6
+vertex -4.5 32 6
+vertex -4.5 32 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex -4.5 1.5 6
+vertex -4.5 32 0
+vertex -4.5 1.5 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex -4.5 1.5 6
+vertex -4.5 1.5 0
+vertex -4.5 -1.5 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex -4.5 1.5 6
+vertex -4.5 -1.5 0
+vertex -4.5 -1.5 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 1.5 0
+vertex 4.5 32 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 32 0
+vertex 4.5 32 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 32 6
+vertex 4.5 1.5 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 1.5 6
+vertex 4.5 -1.5 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 -1.5 6
+vertex 4.5 -32 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 -32 6
+vertex 4.5 -32 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 32 0
+vertex -1.5 1.5 0
+vertex -4.5 1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 32 0
+vertex -4.5 1.5 0
+vertex -4.5 32 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 4.5 32 0
+vertex 4.5 1.5 0
+vertex 1.5 1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 4.5 32 0
+vertex 1.5 1.5 0
+vertex 1.5 32 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 1.5 0
+vertex 1.5 1.5 0
+vertex 4.5 1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 1.5 0
+vertex 4.5 1.5 0
+vertex 4.5 -1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 1.5 0
+vertex 4.5 -1.5 0
+vertex 1.5 -1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 1.5 0
+vertex 1.5 -1.5 0
+vertex -4.5 -1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex -1.5 1.5 0
+vertex -4.5 -1.5 0
+vertex -4.5 1.5 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 4.5 -1.5 0
+vertex 4.5 -32 0
+vertex 1.5 -32 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 4.5 -1.5 0
+vertex 1.5 -32 0
+vertex 1.5 -1.5 0
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 4.5 -32 6
+vertex 4.5 -1.5 6
+vertex 1.5 -1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 4.5 -32 6
+vertex 1.5 -1.5 6
+vertex 1.5 -32 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 1.5 -1.5 6
+vertex 4.5 -1.5 6
+vertex 4.5 1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 1.5 -1.5 6
+vertex 4.5 1.5 6
+vertex 1.5 1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 1.5 -1.5 6
+vertex 1.5 1.5 6
+vertex -1.5 1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 1.5 -1.5 6
+vertex -1.5 1.5 6
+vertex -4.5 1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 1.5 -1.5 6
+vertex -4.5 1.5 6
+vertex -4.5 -1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex -1.5 1.5 6
+vertex -1.5 32 6
+vertex -4.5 32 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex -1.5 1.5 6
+vertex -4.5 32 6
+vertex -4.5 1.5 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 4.5 1.5 6
+vertex 4.5 32 6
+vertex 1.5 32 6
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 4.5 1.5 6
+vertex 1.5 32 6
+vertex 1.5 1.5 6
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex -1.5 32 6
+vertex -1.5 32 0
+vertex -4.5 32 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex -1.5 32 6
+vertex -4.5 32 0
+vertex -4.5 32 6
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 4.5 32 6
+vertex 4.5 32 0
+vertex 1.5 32 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 4.5 32 6
+vertex 1.5 32 0
+vertex 1.5 32 6
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 1.5 -1.5 6
+vertex 1.5 -1.5 0
+vertex 1.5 -32 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 1.5 -1.5 6
+vertex 1.5 -32 0
+vertex 1.5 -32 6
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 1.5 32 6
+vertex 1.5 32 0
+vertex 1.5 1.5 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 1.5 32 6
+vertex 1.5 1.5 0
+vertex 1.5 1.5 6
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex -1.5 1.5 6
+vertex 1.5 1.5 6
+vertex 1.5 1.5 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex -1.5 1.5 6
+vertex 1.5 1.5 0
+vertex -1.5 1.5 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex -1.5 1.5 0
+vertex -1.5 32 0
+vertex -1.5 32 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex -1.5 1.5 0
+vertex -1.5 32 6
+vertex -1.5 1.5 6
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex -4.5 -1.5 0
+vertex 1.5 -1.5 0
+vertex 1.5 -1.5 6
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex -4.5 -1.5 0
+vertex 1.5 -1.5 6
+vertex -4.5 -1.5 6
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 1.5 -32 6
+vertex 1.5 -32 0
+vertex 4.5 -32 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 1.5 -32 6
+vertex 4.5 -32 0
+vertex 4.5 -32 6
+endloop
+endfacet
+endsolid csg.js
