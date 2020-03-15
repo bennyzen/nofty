@@ -24,7 +24,7 @@
   "dependencies": {
     "@jscad/openjscad": "^1.6.1",
     "@jscad/scad-api": "^0.5.1",
-    "chokidar-cli": "^1.2.2",
-    "nodemon": "^1.19.1"
+    "chokidar-cli": "^1.2.3",
+    "nodemon": "^1.19.4"
   }
 }
