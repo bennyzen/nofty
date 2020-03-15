@@ -1,11 +1,7 @@
-# salatower
-A 3D printable, vertical salad tower. This is a re-circulating NFT
-(Nutrient Film Technique) system without any soil or buffering medium. Consumption
-of water and production of waste are kept down to a minimum.
+# Nofty
+A 3D printable, vertical NFT system. This is a re-circulating NFT (Nutrient Film Technique) system without any soil or buffering medium. Consumption of water and production of waste are kept to a minimum.
 
-This whole set of parts comes pre-rendered as STL files. You can use these files
-in folder `stl` to feed your slicer and print them right away. If you feel the
-need to customize things, refer to `config.js` as good starting point.
+This whole set of parts comes pre-rendered as STL files. You can use these files in folder `stl` to feed your slicer and print them right away. If you feel the need to customize things, refer to `config.js` as good starting point.
 
 ## Things you need:
 - 3D printer
