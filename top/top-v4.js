@@ -21,7 +21,8 @@ try to add a hook under the last piece, so we can append a weight to keep the
 whole tube straight and protected against wind.
 
 Further, we could add some handles to pull off the cover from the tube only
-using your fingers and without any tool.
+using the fingers and without any tool. Till now, I always had to use a screw
+driver to pull the top off again, once plugged into the first middle piece.
 */
 
 const c = require('./../config.js')
@@ -52,18 +53,6 @@ part = union(
   cylinder({r: c.TOP_DIAMETER/2, h: c.WALL_THICKNESS, center: [true, true, false]})
     .translate([0, 0, c.RING_HEIGHT])
 )
-
-// add a diverter, to make the water flow along the walls
-// part = union(
-//   part,
-//   cylinder({r1: c.TOP_DIAMETER/2 - c.WALL_THICKNESS*2, r2: 1, h: 5, center: [true, true, false]})
-// )
-// part = union(
-//   part,
-//   cube({size: [8, c.TOP_DIAMETER - c.WALL_THICKNESS, c.WALL_THICKNESS], center: [true, true, false]}),
-//   cube({size: [8, c.TOP_DIAMETER - c.WALL_THICKNESS, c.WALL_THICKNESS], center: [true, true, false]})
-//     .rotateZ(90)
-// )
 
 let addRopeHolders = (part,rotation) => {
   let block = cube({size: [c.ROPE_DIAMETER+6, c.ROPE_DIAMETER+6, c.RING_HEIGHT], center: [true, true, false]})
@@ -106,7 +95,7 @@ let h_hole = cylinder({r: 1.5, h: c.TOP_DIAMETER-(c.WALL_THICKNESS*2+6), center:
   .rotateX(90)
   .translate([0, c.TOP_DIAMETER/2-5, 8])
   .rotateZ(45)
-let v_hole = cylinder({r: 1.5, h: 8, center: [true, true, false]})
+let v_hole = cylinder({r: 2.0, h: 8, center: [true, true, false]})
   .translate([c.TOP_DIAMETER/2-5, 0, 0])
   .rotateZ(45)
 h_hole = union(
@@ -114,11 +103,23 @@ h_hole = union(
   v_hole,
   v_hole.rotateZ(180)
 )
-
 part = difference(
   part,
   h_hole,
   h_hole.rotateZ(90)
+)
+
+// easy pull-off finger hole (20mm)
+part = union(
+  part,
+  cube({size: [12, 20+(2*6), 20+6], center: [true, true, false]})
+    .translate([0, -c.TOP_DIAMETER/2+25, c.RING_HEIGHT*2])
+)
+part = difference(
+  part,
+  cylinder({r: 10, h: 12, center: [true, true, false]})
+    .rotateY(90)
+    .translate([-6, -12.5, 36])
 )
 
 let stl = jscad.generateOutput('stla',part)
