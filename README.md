@@ -1,4 +1,3 @@
-![](https://github.com/bennyzen/nofty/raw/master/pics/tomato.jpg =250x250)
 ![](https://github.com/bennyzen/nofty/raw/master/pics/tomato.jpg?v=4&s=200)
 
 # Nofty
