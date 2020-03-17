@@ -1,4 +1,5 @@
 ![](https://github.com/bennyzen/nofty/raw/master/pics/tomato.jpg =250x250)
+![](https://github.com/bennyzen/nofty/raw/master/pics/tomato.jpg?v=4&s=200)
 
 # Nofty
 A 3D printable, vertical NFT system. This is a re-circulating NFT (Nutrient Film Technique) system without any soil or buffering medium. Consumption of water and production of waste are kept to a minimum.
