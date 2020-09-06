@@ -49,10 +49,3 @@ All my prints were done on a cheap FDM printer using PLA and a 1.0mm nozzle. The
 
 ## How to operate
 Once all parts are printed and fit into each other, you're ready to test your system. First of all you need to be sure there are no leaks. Even a small leak can result in a complete outage, when run for a couple of hours.
-
-## Using js files to change the models
-You can use the JSCAD files to make changes to the models. To watch for changes and have the files recompiled on the fly do:
-```
-npm i
-npm run dev
-```
