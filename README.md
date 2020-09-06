@@ -20,7 +20,7 @@ This whole set of parts comes pre-rendered as STL files. You can use these files
 
 
 ## How to print:
-All my prints were done on a cheap FDM printer using PLA and a 1.0mm nozzle. The large nozzle makes prints really fast and sturdy. According to the 1.0mm nozzle, the `WALL_THICKNESS` variable was set to 2mm. Make sure you set your `WALL_THICKNESS` to a multiple of your nozzle width. Use at least 2mm or 2-5 times the nozzle width, depending on your nozzle. All pieces should be waterproof and fit into each other. The fit is crucial, so I recommend you follow the build instructions provided below to the point.
+All my prints were done on a cheap FDM printer using PLA and a 1.0mm nozzle. The large nozzle makes prints really fast and sturdy. According to the 1.0mm nozzle, the `WALL_THICKNESS` variable in `config.js` was set to 2mm. Make sure you set your `WALL_THICKNESS` to a multiple of your nozzle width. Use at least 1.5mm or 2-5 times the nozzle width, depending on your nozzle. If you use a traditional 0.4mm nozzle, use at least a `WALL_THICKNESS` of 1.6mm to get enough stability. All pieces should be waterproof and fit into each other. The fit is crucial, so I recommend you follow the build instructions provided below to the point.
 
 
 ## How to build:
