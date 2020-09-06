@@ -17,9 +17,7 @@ This whole set of parts comes pre-rendered as STL files. You can use these files
 ## Things to know:
 - the pump should run constantly or at least in short intervals
 - make sure to adjust EC and pH values of your solution according to what you grow. to know the right values for your nutrient solution refer to [this table](http://www.homehydrosystems.com/ph_tds_ppm/ph_vegetables_page.html).
-- you can grow salad using a photoperiod of only 12 hours, but growth and yield
-  will both be [slightly decreased](https://gpnmag.com/news/use-a-high-yield-photoperiod-to-increase-lettuce-production-by-40-percent/). 
-- put some fleece in the lowest segment to prevent roots from growing down the tube into the tank, as they will slowly fill up and finally clog the tube, preventing recirculation.
+
 
 ## How to print:
 All my prints were done on a cheap FDM printer using PLA and a 1.0mm nozzle. The large nozzle makes prints really fast and sturdy. According to the 1.0mm nozzle, the `WALL_THICKNESS` variable was set to 2mm. Make sure you set your `WALL_THICKNESS` to a multiple of your nozzle width. Use at least 2mm or 2-5 times the nozzle width, depending on your nozzle. All pieces should be waterproof and fit into each other. The fit is crucial, so I recommend you follow the build instructions provided below to the point.
