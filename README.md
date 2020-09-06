@@ -17,6 +17,7 @@ This whole set of parts comes pre-rendered as STL files. You can use these files
 ## Things to know:
 - the pump should run constantly or at least in short intervals
 - make sure to adjust EC and pH values of your solution according to what you grow. to know the right values for your nutrient solution refer to [this table](http://www.homehydrosystems.com/ph_tds_ppm/ph_vegetables_page.html).
+- as a general rule, plants will have a higher nutrient requirement during cooler months, and a lower requirement in the hottest months. Therefore, a stronger nutrient solution should be maintained during winter, with a weaker solution during summer when plants take up and transpire more water than nutrients.
 
 
 ## How to print:
