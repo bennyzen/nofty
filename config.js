@@ -1,11 +1,11 @@
 /*
-Use this configuration file to finetune your salatower. Every printer is
+Use this configuration file to finetune nofty. Every printer is
 different, so you'll probably need to adjust these values to make things fit
 into each other. Values set herein are global and affect all parts of the
 system. Tweak them carefully and one by one.
 
 After every change to this config file, you need to re-render your STL files.
-You can do this with eg `nodemon bottom/bottom-v3.js`.
+You can do this with eg `node bottom/bottom-v3.js`.
 */
 const config = {
   // tower
