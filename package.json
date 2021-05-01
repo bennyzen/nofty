@@ -1,11 +1,11 @@
 {
-  "name": "salatower",
+  "name": "nofty",
   "version": "0.0.1",
   "description": "A vertical salad tower.",
   "main": " ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "chokidar \"**/*.jscad\" --verbose -i node_modules -c \"openjscad {path} -of stla\""
+    "dev": "chokidar \"**/*.js\" --verbose -i node_modules -c \"node {path}\""
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
   "dependencies": {
     "@jscad/openjscad": "^1.6.1",
     "@jscad/scad-api": "^0.5.1",
-    "chokidar-cli": "^1.2.3",
-    "nodemon": "^1.19.4"
+    "chokidar-cli": "^1.2.3"
   }
 }
