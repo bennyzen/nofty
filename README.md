@@ -48,3 +48,6 @@ All my prints were done on a cheap FDM printer using PLA and a 1.0mm nozzle. The
 
 ## How to operate
 Once all parts are printed and fit into each other, you're ready to test your system. First of all you need to be sure there are no leaks. Even a small leak can result in a complete outage, when run for a couple of hours.
+
+### Note
+This uses JSCAD v1 which is now deprecated. Upgrading to JSCAD v2 would mean to rewrite all models. I'm not gonna do that right now, as I don't see any resulting advantage.
